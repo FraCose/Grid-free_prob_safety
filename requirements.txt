@@ -1,0 +1,6 @@
+numpy==1.19.2
+cupy==8.3.0
+matplotlib==3.3.4
+
+# Python version == 3.8
+# As a general note, we believe the code can run on any recent version of the preceding packages.
