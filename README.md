@@ -15,7 +15,7 @@ The files are divided in the following way:<br />
  To have the interactive 3d plots run the notebooks in jupyter notebook (not lab). <br />
 
 ----------------------------------------------------
-Special Note to run the experiments
+Special notes to run the experiments
 ----------------------------------------------------
 - mc_gpu_*.py are set to plot interactive figures via a x11 server, which show the updates of the wanted border.<br />
  Please change the code (line 4 should be enough) accordingly if you run the code locally or something go wrong.<br />
