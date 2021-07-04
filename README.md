@@ -21,8 +21,11 @@ Special notes to run the experiments
  Please change the code (line 4 should be enough) accordingly if you run the code locally or something go wrong.<br />
  You can play with the parameters as explained in the work. It is important to remark that if the probability is 0, <br />
  then the gradient is 0 as well, and the algorithm does not converge, therefore you have to change the initial point. <br />
-- if a CUDA gpu is not available, in principle the code can be changed easily replacing .cp with .np (importing numpy as np).<br />
+- If a CUDA gpu is not available, in principle the code can be changed easily replacing .cp with .np (importing numpy as np).<br />
  However, running the code on CPU could be quite heavy therefore we do not suggest it. <br />
+- Due to technical reasons (execution on the server for us), we have decided not to share the code for the plots of the full <br />
+surface. However, it is a straightforward extension of the code in mc_gpu_sphere.py (e.g. you can run it multiple times for <br />
+different sections).
 
 ---------------------------------------------------
 Funding
